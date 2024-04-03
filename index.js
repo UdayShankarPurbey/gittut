@@ -45,3 +45,11 @@ function isUseful() {
 function perKMPrice() {
     return fuelPrice/average;
 }
+
+function perKMComparison() {
+    let perKMPriceOfEv = unitRate/average;
+    let perKMPriceOfdiesel = fuelPrice/average;
+    let perKMPriceOfEthnol = ethnolPrive/average;
+    let data = perKMPriceOfdiesel > perKMPriceOfEthnol ? (perKMPriceOfdiesel > perKMPriceOfEv ?perKMPriceOfdiesel:perKMPriceOfEv) : ( perKMPriceOfEthnol > perKMPriceOfEv ?perKMPriceOfEthnol:perKMPriceOfEv)
+    return data;
+}
