@@ -5,6 +5,10 @@ function fun () {
     console.log("Function");
 }
 
-function tryout() {
-    return time >= 100;
+function f1(speed) {
+    if(speed > 250) {
+        return true;
+    } else {
+        return false;
+    }
 }
