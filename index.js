@@ -7,6 +7,8 @@ function fun () {
 
 function tryout() {
     return time >= 100;
+}
+
 function f1Speed(speed) {
     if(speed > 250) {
         return true;
