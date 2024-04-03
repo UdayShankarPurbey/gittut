@@ -22,3 +22,11 @@ function colledge() {
         return false;
     }
 }
+
+function library() {
+    if(accessibility == true) {
+        return true;
+    } else {    
+        return false;
+    }
+}
