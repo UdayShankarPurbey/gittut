@@ -53,3 +53,7 @@ function perKMComparison() {
     let data = perKMPriceOfdiesel > perKMPriceOfEthnol ? (perKMPriceOfdiesel > perKMPriceOfEv ?perKMPriceOfdiesel:perKMPriceOfEv) : ( perKMPriceOfEthnol > perKMPriceOfEv ?perKMPriceOfEthnol:perKMPriceOfEv)
     return data;
 }
+
+function salrySlip(){
+    return (salary/daysInMonth) * NoOfWoringDays + reimburshmentAmount
+}
