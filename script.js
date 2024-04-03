@@ -3,5 +3,6 @@ function hello() {
 }
 
 function isAbove18() {
+    console.log("hi");
     return age >= 18;
 }
