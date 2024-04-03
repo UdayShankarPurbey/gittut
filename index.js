@@ -18,6 +18,13 @@ function f1Speed(speed) {
     }
 }
 
+function isExpensive() {
+    if(price > 10000000) {
+        return true;
+    } else {
+        return false;
+    }
+}
 
 
 
