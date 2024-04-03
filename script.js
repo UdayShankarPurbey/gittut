@@ -14,3 +14,11 @@ function ableToVote() {
         return false;
     }
 }
+
+function colledge() {
+    if(isMatriculationComplete == true && isIntermediateComplete == true) { 
+        return true;
+    } else {
+        return false;
+    }
+}
