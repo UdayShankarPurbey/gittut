@@ -135,4 +135,31 @@ const data = [
       "accessibility": true
     }
   ]
-  
+
+
+function nameOfStudentForMatriculation() {
+    let name = [];
+     let da = data.filter(i => i.isMatriculationComplete == false && i.isIntermediateComplete == false)
+ 
+     da.forEach(i => name.push(i.name))
+     return name;
+   }
+   
+   function nameOfStudentForIntermediate() {
+     let name = [];
+     let da = data.filter(i => i.isMatriculationComplete == true && i.isIntermediateComplete == false)
+ 
+     da.forEach(i => name.push(i.name))
+     return name;
+   
+   }
+   
+   function nameOfStudentForColledge() {
+     let name = [];
+     let da = data.filter(i => i.isMatriculationComplete == true && i.isIntermediateComplete == true)
+ 
+     da.forEach(i => name.push(i.name))
+     return name;
+   
+   }
+   
