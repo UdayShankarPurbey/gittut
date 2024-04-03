@@ -42,4 +42,6 @@ function isUseful() {
     }
 }
 
-
+function perKMPrice() {
+    return fuelPrice/average;
+}
