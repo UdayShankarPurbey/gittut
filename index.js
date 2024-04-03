@@ -26,5 +26,20 @@ function isExpensive() {
     }
 }
 
+function isRare() {
+    if(avilableAmount < 1000 && isUseful == true) {
+        return true;
+    } else {
+        return false;
+    }
+}
+
+function isUseful() {
+    if(savedTime > 2  || savedMoney > 10000) {
+        return true;
+    } else {
+        return false;
+    }
+}
 
 
