@@ -135,7 +135,7 @@ const data = [
       "accessibility": true
     }
   ]
-
+  
 
 function nameOfStudentForMatriculation() {
     let name = [];
@@ -163,3 +163,13 @@ function nameOfStudentForMatriculation() {
    
    }
    
+
+  function  averageAge() {
+      let averageAge = 0;
+      data.forEach(i => averageAge += i.age)
+      return averageAge/data.length;
+  }
+
+  function CallList() {
+    console.log(nameOfStudentForMatriculation());
+  }
